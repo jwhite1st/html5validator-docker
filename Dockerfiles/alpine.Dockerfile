@@ -1,4 +1,4 @@
-FROM python:3.12.7-alpine AS base
+FROM python:3.13.1-alpine AS base
 
 RUN mkdir -p /usr/share/man/man1/ \
     && apk add --no-cache py-pip \
